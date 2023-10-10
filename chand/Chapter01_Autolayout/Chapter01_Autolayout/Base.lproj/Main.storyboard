@@ -17,42 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZo-Z3-7wn">
-                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="toG-5w-2pA"/>
-                                </constraints>
-                                <items>
-                                    <tabBarItem title="검색" image="magnifyingglass" catalog="system" id="GyJ-TG-iwu"/>
-                                    <tabBarItem title="찜" image="suit.heart" catalog="system" id="2c3-2v-LPt"/>
-                                    <tabBarItem image="house" catalog="system" id="qhA-uR-9zb"/>
-                                    <tabBarItem title="주문내역" image="list.bullet.rectangle.portrait" catalog="system" id="VSJ-pc-g20"/>
-                                    <tabBarItem title="my배민" image="smiley" catalog="system" id="5Ga-8R-YyN"/>
-                                </items>
-                            </tabBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcD-Bw-jgZ">
-                                <rect key="frame" x="20.5" y="694.5" width="373" height="89.5"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="광고">
-                                    <backgroundConfiguration key="background" cornerRadius="15">
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgs-3C-zdW">
-                                <rect key="frame" x="20.5" y="497.5" width="373" height="179"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="대용량특가">
-                                    <backgroundConfiguration key="background" cornerRadius="15">
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OX-7T-glF">
-                                <rect key="frame" x="153" y="367.5" width="108" height="116.5"/>
+                                <rect key="frame" x="180.5" y="229" width="53.5" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="배달">
                                     <backgroundConfiguration key="background" cornerRadius="15">
@@ -62,7 +28,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qu-5l-ZKp">
-                                <rect key="frame" x="283.5" y="367.5" width="107.5" height="116.5"/>
+                                <rect key="frame" x="261.5" y="229" width="98" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="배민스토어">
                                     <backgroundConfiguration key="background" cornerRadius="15">
@@ -72,7 +38,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Onl-P7-OvR">
-                                <rect key="frame" x="18.5" y="367.5" width="108" height="116.5"/>
+                                <rect key="frame" x="10" y="176.5" width="187" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="알뜰배달">
                                     <backgroundConfiguration key="background" cornerRadius="15">
@@ -81,8 +47,9 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjs-Ub-1gz">
-                                <rect key="frame" x="20.5" y="260" width="373" height="89.5"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjs-Ub-1gz">
+                                <rect key="frame" x="10" y="132" width="394" height="34.5"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="집콕러세요?">
                                     <backgroundConfiguration key="background" cornerRadius="15">
@@ -92,64 +59,26 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Eu-Og-jXX">
-                                <rect key="frame" x="0.0" y="48" width="414" height="179"/>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Eu-Og-jXX">
+                                <rect key="frame" x="0.0" y="48" width="414" height="74"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="9LX-x9-OB9">
-                                        <rect key="frame" x="20.5" y="123.5" width="373" height="40"/>
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="D75-7M-0dy">
+                                        <rect key="frame" x="18" y="0.0" width="378" height="56"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <outlet property="delegate" destination="BYZ-38-t0r" id="LNd-Zl-JDU"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="A8R-0f-eHj"/>
                                         </connections>
                                     </searchBar>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fq-V5-l7t">
-                                        <rect key="frame" x="234.5" y="72.5" width="49" height="34"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="square.grid.2x2" catalog="system" title="">
-                                            <color key="baseForegroundColor" red="0.96607202290000005" green="0.96607214210000003" blue="0.96607202290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPC-nX-qpn">
-                                        <rect key="frame" x="286" y="72.5" width="49.5" height="34"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="bell" catalog="system" title="">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfd-HC-8nA">
-                                        <rect key="frame" x="345.5" y="75.5" width="33.5" height="28.5"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button" image="cart" catalog="system"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="cart" catalog="system">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wv-d1-Ssw">
-                                        <rect key="frame" x="20.5" y="73.5" width="83" height="32"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="우리집 ▾">
-                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </buttonConfiguration>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.36680424210000001" green="0.74557679889999995" blue="0.732676208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <constraints>
-                                    <constraint firstItem="9fq-V5-l7t" firstAttribute="centerY" secondItem="7Eu-Og-jXX" secondAttribute="centerY" id="0Ec-7J-vyL"/>
-                                    <constraint firstItem="9LX-x9-OB9" firstAttribute="height" secondItem="7Eu-Og-jXX" secondAttribute="height" multiplier="0.22335" id="4fs-uR-wuS"/>
-                                    <constraint firstItem="9LX-x9-OB9" firstAttribute="width" secondItem="7Eu-Og-jXX" secondAttribute="width" multiplier="0.9" id="A5L-0L-eds"/>
-                                    <constraint firstItem="9LX-x9-OB9" firstAttribute="centerY" secondItem="7Eu-Og-jXX" secondAttribute="centerY" multiplier="1.6" id="CZ0-hi-fzc"/>
-                                    <constraint firstItem="5wv-d1-Ssw" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" multiplier="0.3" id="I2B-SU-MKi"/>
-                                    <constraint firstItem="9LX-x9-OB9" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" id="IQZ-d1-9Ir"/>
-                                    <constraint firstItem="5wv-d1-Ssw" firstAttribute="height" secondItem="7Eu-Og-jXX" secondAttribute="height" multiplier="0.177665" id="ObN-T9-0Hn"/>
-                                    <constraint firstItem="9fq-V5-l7t" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" multiplier="1.25" id="QKW-tQ-4zD"/>
-                                    <constraint firstItem="LPC-nX-qpn" firstAttribute="centerY" secondItem="7Eu-Og-jXX" secondAttribute="centerY" id="UyM-Lx-A12"/>
-                                    <constraint firstItem="xfd-HC-8nA" firstAttribute="centerY" secondItem="7Eu-Og-jXX" secondAttribute="centerY" id="Wgt-8U-Hra"/>
-                                    <constraint firstItem="5wv-d1-Ssw" firstAttribute="width" secondItem="7Eu-Og-jXX" secondAttribute="width" multiplier="0.2" id="ewG-O1-Dlp"/>
-                                    <constraint firstItem="5wv-d1-Ssw" firstAttribute="centerY" secondItem="7Eu-Og-jXX" secondAttribute="centerY" id="fOR-QM-0Sh"/>
-                                    <constraint firstItem="xfd-HC-8nA" firstAttribute="width" secondItem="7Eu-Og-jXX" secondAttribute="width" multiplier="0.08" id="gHi-OU-y0M"/>
-                                    <constraint firstItem="xfd-HC-8nA" firstAttribute="height" secondItem="7Eu-Og-jXX" secondAttribute="height" multiplier="0.16" id="ghz-KY-68G"/>
-                                    <constraint firstItem="LPC-nX-qpn" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" multiplier="1.5" id="mGi-gI-FeI"/>
-                                    <constraint firstItem="xfd-HC-8nA" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" multiplier="1.75" id="wNG-kw-I9R"/>
+                                    <constraint firstItem="D75-7M-0dy" firstAttribute="centerX" secondItem="7Eu-Og-jXX" secondAttribute="centerX" id="Wqz-Te-wN0"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="D75-7M-0dy" secondAttribute="bottom" constant="10" id="b4N-QL-yYi"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="D75-7M-0dy" secondAttribute="trailing" constant="10" id="c8m-pJ-m2a"/>
+                                    <constraint firstItem="D75-7M-0dy" firstAttribute="leading" secondItem="7Eu-Og-jXX" secondAttribute="leadingMargin" constant="10" id="yBR-zD-DI0"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -157,38 +86,22 @@
                         <color key="backgroundColor" red="0.96607202290000005" green="0.96607214210000003" blue="0.96607202290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="systemCyanColor"/>
                         <constraints>
-                            <constraint firstItem="xcD-Bw-jgZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.65" id="1K9-Vr-HGw"/>
-                            <constraint firstItem="xcD-Bw-jgZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="4AT-Au-QNk"/>
-                            <constraint firstItem="gZo-Z3-7wn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Zc-vC-7Za"/>
-                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="Gbr-lK-X1V"/>
-                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="Jh9-sk-unD"/>
-                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L0f-gh-4hD"/>
-                            <constraint firstItem="lgs-3C-zdW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.31" id="PCn-5y-aMf"/>
-                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.26" id="QSk-Th-YFp"/>
-                            <constraint firstItem="lgs-3C-zdW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="RO8-qj-i4V"/>
-                            <constraint firstItem="4OX-7T-glF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RoF-P6-ubd"/>
-                            <constraint firstItem="xcD-Bw-jgZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S8S-YO-SrF"/>
-                            <constraint firstItem="4OX-7T-glF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.26" id="SF1-ow-ElI"/>
-                            <constraint firstItem="lgs-3C-zdW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X8d-3V-kxD"/>
-                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Y04-YL-0QV"/>
-                            <constraint firstItem="xcD-Bw-jgZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="ZAb-0H-LGr"/>
-                            <constraint firstItem="4OX-7T-glF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.95" id="a4N-OK-rbC"/>
-                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="cke-Km-INp"/>
-                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.63" id="czD-TA-lBO"/>
-                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.68" id="dzi-mc-iHu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Eu-Og-jXX" secondAttribute="trailing" id="hJC-TU-Dav"/>
-                            <constraint firstItem="Onl-P7-OvR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.26" id="iOf-Uy-dlk"/>
-                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lVu-vP-Nrm"/>
-                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nMa-Rv-gxL"/>
-                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.95" id="ogW-8C-4bK"/>
-                            <constraint firstItem="Onl-P7-OvR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.13" id="qiH-do-b5a"/>
-                            <constraint firstItem="gZo-Z3-7wn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rDQ-PM-hcr"/>
-                            <constraint firstItem="lgs-3C-zdW" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="t8A-5M-4qi"/>
-                            <constraint firstItem="Onl-P7-OvR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.95" id="ul0-iW-igw"/>
-                            <constraint firstItem="Onl-P7-OvR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.35" id="upA-4Z-5D0"/>
-                            <constraint firstItem="gZo-Z3-7wn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="use-Eh-INJ"/>
-                            <constraint firstItem="4OX-7T-glF" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.13" id="use-ip-h12"/>
-                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.13" id="vo3-Qn-QwA"/>
+                            <constraint firstItem="Onl-P7-OvR" firstAttribute="top" secondItem="kjs-Ub-1gz" secondAttribute="bottom" constant="10" id="10k-nQ-yz1"/>
+                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="30o-1v-40z"/>
+                            <constraint firstItem="Onl-P7-OvR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="9X9-VW-H5V"/>
+                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A7b-tv-GCv"/>
+                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="H9I-VL-K89"/>
+                            <constraint firstItem="4OX-7T-glF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SYi-FW-CjO"/>
+                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="akm-0m-PqU"/>
+                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="top" secondItem="7Eu-Og-jXX" secondAttribute="bottom" constant="10" id="gfD-Xu-Ydq"/>
+                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="itL-Gz-Ee6"/>
+                            <constraint firstItem="9qu-5l-ZKp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="jjR-lM-7ts"/>
+                            <constraint firstItem="Onl-P7-OvR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ltM-9O-u75"/>
+                            <constraint firstItem="4OX-7T-glF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lwD-Ky-LqV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kjs-Ub-1gz" secondAttribute="trailing" constant="10" id="nfX-Tx-eNe"/>
+                            <constraint firstItem="7Eu-Og-jXX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="ohJ-c7-L9v"/>
+                            <constraint firstItem="kjs-Ub-1gz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="szG-fX-cz8"/>
+                            <constraint firstItem="Onl-P7-OvR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="yQz-XQ-nqC"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -198,14 +111,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell" catalog="system" width="125" height="128"/>
-        <image name="cart" catalog="system" width="128" height="102"/>
-        <image name="house" catalog="system" width="128" height="104"/>
-        <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
-        <image name="smiley" catalog="system" width="128" height="123"/>
-        <image name="square.grid.2x2" catalog="system" width="128" height="114"/>
-        <image name="suit.heart" catalog="system" width="128" height="107"/>
         <systemColor name="systemCyanColor">
             <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
